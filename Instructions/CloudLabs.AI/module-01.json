@@ -1,0 +1,42 @@
+[ {
+  "Name": "PL-900-Microsoft-Power-Platform-Fundamentals",
+  "Language": "English",
+  "Files": [
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/PL-900ES-Microsoft-Power-Platform-Fundamentals/tree/stageInstructions/CloudLabs.AI/LAB[PL-900]_M00Lab00_Setup.md",
+      "Order": 1
+    },
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/PL-900ES-Microsoft-Power-Platform-Fundamentals/tree/stageInstructions/CloudLabs.AI/LAB[PL-900]_M02Lab01_Data_Model.md",
+      "Order": 2
+    },
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/PL-900ES-Microsoft-Power-Platform-Fundamentals/tree/stageInstructions/CloudLabs.AI/LAB[PL-900]_M03Lab01_Canvas_App_1.md",
+      "Order": 3
+    },
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/PL-900ES-Microsoft-Power-Platform-Fundamentals/tree/stageInstructions/CloudLabs.AI/LAB[PL-900]_M03Lab02_Canvas_App_2.md",
+      "Order": 4
+    },
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/PL-900ES-Microsoft-Power-Platform-Fundamentals/tree/stageInstructions/CloudLabs.AI/LAB[PL-900]_M03Lab03_Model_App.md",
+      "Order": 5
+    },
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/PL-900ES-Microsoft-Power-Platform-Fundamentals/tree/stageInstructions/CloudLabs.AI/LAB[PL-900]_M03Lab04_Portal_App.md",
+      "Order": 6
+    },
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/PL-900ES-Microsoft-Power-Platform-Fundamentals/tree/stageInstructions/CloudLabs.AI/LAB[PL-900]_M04Lab01_Power_Automate.md",
+      "Order": 7
+    },
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/PL-900ES-Microsoft-Power-Platform-Fundamentals/tree/stageInstructions/CloudLabs.AI/LAB[PL-900]_M05Lab01_Power_BI.md",
+      "Order": 8
+    },
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/PL-900ES-Microsoft-Power-Platform-Fundamentals/tree/stageInstructions/CloudLabs.AI/LAB[PL-900]_M06Lab01_PVA.md",
+      "Order": 9
+    }
+  ]
+} ]
