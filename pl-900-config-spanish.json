@@ -1,0 +1,211 @@
+﻿{
+  "config": {
+    "msLearnRepo": "https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals",
+    "cloudLabsStageRepo": "https://github.com/CloudLabs-MOC/PL-900-Microsoft-Power-Platform-Fundamentals/tree/stage",
+    "cloudLabsProdRepo": "https://github.com/CloudLabs-MOC/PL-900-Microsoft-Power-Platform-Fundamentals/tree/stage",
+    "cloudLabsProdRepoRaw": "https://raw.githubusercontent.com/CloudLabs-MOC/PL-900-Microsoft-Power-Platform-Fundamentals/tree/stage",
+    "outputFolder": "Instructions/CloudLabs.AI/"
+  },
+  "modules": [
+    {
+      "id": 1,
+      "name": "PL-900-Microsoft-Power-Platform-Fundamentals",
+      "labs": [
+        {
+          "id": 1,
+          "name": "Módulo 0: Introducción al curso",
+          "file": "https://github.com/MicrosoftLearning/PL-900ES-Microsoft-Power-Platform-Fundamentals/blob/master/Instructions/Labs/LAB%5BPL-900%5D_M00Lab00_Setup.md"
+        },
+        {
+            "id": 2,
+            "name": "Módulo 2: Introducción a Common Data Service",
+            "file": "https://github.com/MicrosoftLearning/PL-900ES-Microsoft-Power-Platform-Fundamentals/blob/master/Instructions/Labs/LAB%5BPL-900%5D_M02Lab01_Data_Model.md"
+          },
+          {
+            "id": 3,
+            "name": "Módulo 3: Empiece a utilizar Power Apps",
+            "file": "https://github.com/MicrosoftLearning/PL-900ES-Microsoft-Power-Platform-Fundamentals/blob/master/Instructions/Labs/LAB%5BPL-900%5D_M03Lab01_Canvas_App_1.md"
+          },
+          {
+            "id": 4,
+            "name": "Módulo 3: Empiece a utilizar Power Apps",
+            "file": "https://github.com/MicrosoftLearning/PL-900ES-Microsoft-Power-Platform-Fundamentals/blob/master/Instructions/Labs/LAB%5BPL-900%5D_M03Lab02_Canvas_App_2.md"
+          },
+          {
+            "id": 5,
+            "name": "Módulo 3: Empiece a utilizar Power Apps",
+            "file": "https://github.com/MicrosoftLearning/PL-900ES-Microsoft-Power-Platform-Fundamentals/blob/master/Instructions/Labs/LAB%5BPL-900%5D_M03Lab03_Model_App.md"
+          },
+          {
+            "id": 6,
+            "name": "Módulo 3: Empiece a utilizar Power Apps",
+            "file": "https://github.com/MicrosoftLearning/PL-900ES-Microsoft-Power-Platform-Fundamentals/blob/master/Instructions/Labs/LAB%5BPL-900%5D_M03Lab04_Portal_App.md"
+          },
+          {
+            "id": 7,
+            "name": "Módulo 4: Introducción a Power Automate",
+            "file": "https://github.com/MicrosoftLearning/PL-900ES-Microsoft-Power-Platform-Fundamentals/blob/master/Instructions/Labs/LAB%5BPL-900%5D_M04Lab01_Power_Automate.md"
+          },
+          {
+            "id": 8,
+            "name": "Módulo 5: Introducción a Power BI",
+            "file": "https://github.com/MicrosoftLearning/PL-900ES-Microsoft-Power-Platform-Fundamentals/blob/master/Instructions/Labs/LAB%5BPL-900%5D_M05Lab01_Power_BI.md"
+          },
+          {
+            "id": 9,
+            "name": "Módulo 6: Introducción a los agentes virtuales de potencia",
+            "file": "https://github.com/MicrosoftLearning/PL-900ES-Microsoft-Power-Platform-Fundamentals/blob/master/Instructions/Labs/LAB%5BPL-900%5D_M06Lab01_PVA.md"
+          }
+
+
+      ],
+      "contntUpdates": [
+       {
+          "type": "removeSection",
+          "textOne": "    título: 'Lab: Validar ambiente de Laboratorio'",
+          "textTwo": "    móduloe: 'Módulo 0: Introducción al curso'"
+        },
+        {
+          "type": "removeSection",
+          "textOne": "### Tarea 1 - Adquiera su tenant de prueba de Power Platform",
+          "textTwo": "### Tarea \\#2 – Crear ambiente"
+        },
+        {
+          "type": "replace",
+          "textOne": "### Tarea \\#2 – Crear ambiente",
+          "textTwo": "### Tarea \\#1 – Crear ambiente"
+        },
+        {
+          "type": "replace",
+          "textOne": "- Para el **Nombre**, escriba **[Las iniciales de su nombre] Practice.** (Ejemplo: AJ Practice.)",
+          "textTwo": "- Para **Nombre**, escriba **Practice[DeploymentId]** (Ejemplo: Practice255365)"
+        },
+        {
+          "type": "removeSection",
+          "textOne": "    título: 'Lab 1: Modelado de datos'",
+          "textTwo": "    módulo: 'Módulo 2: Introducción a Common Data Service'"
+        },
+        {
+          "type": "replace",
+          "textOne": " -   Escriba **[Su apellido] Campus Management** para  **Nombre a mostrar**.",
+          "textTwo": "-   Escriba **Campus Management[DeploymentId]** para  **Nombre a mostrar**."
+        },
+        {
+          "type": "removeSection",
+          "textOne": "    título: 'Lab 2: Construir una aplicación canvas, Parte 1'",
+          "textTwo": "    módulo: 'Módulo 3: Empiece a utilizar Power Apps'"
+        },
+        {
+          "type": "replace",
+          "textOne": "-   Escriba **[Su apellido] Campus Staff** para el **Nombre**.",
+          "textTwo": "-   Escriba **Campus Staff[DeploymentId]** para el **Nombre**."
+        },
+        {
+          "type": "removeLine",
+          "textOne": "    título: 'Lab 3: Construir una aplicación canvas, parte 2'",
+          "textTwo": ""
+        },
+        {
+          "type": "replace",
+          "textOne": "-   Escriba **[Su apellido] Campus Security** para el Nombre y luego click en **Guardar**.",
+          "textTwo": "-   Escriba **Campus Staff[DeploymentId]** para el **Nombre**."
+        },
+        {
+          "type": "removeLine",
+          "textOne": "    título: 'Lab 4: Cómo crear una aplicación basada en modelos'",
+          "textTwo": ""
+        },
+        {
+          "type": "replace",
+          "textOne": "-   Escriba **[Su apellido] Campus Management** para el Nombre y luego de click en **Siguiente**.",
+          "textTwo": "-   Escriba **Campus Management[DeploymentId]** para el Nombre y luego de click en **Siguiente**."
+        },
+        {
+          "type": "removeLine",
+          "textOne": "    título: 'Lab 5: Cómo crear un portal de Power Apps'",
+          "textTwo": ""
+        },
+        {
+          "type": "removeSection",
+          "textOne": "    título: 'Lab 6: Cómo construir una solución automatizada'",
+          "textTwo": "    module: 'Module 4: Empiece a utilizar Power Automate'"
+        },
+        {
+          "type": "removeSection",
+          "textOne": "    título: 'Lab 7: Cómo construir un tablero simple'",
+          "textTwo": "    module: 'Module 5: Introducción a Power BI'"
+        },
+        {
+          "type": "replace",
+          "textOne": "16. Guarde el trabajo en progreso presionando **File \\| Save** y Escriba un nombre de archivo de su elección.",
+          "textTwo": "16. Guarde el trabajo en progreso presionando **File \\| Save** y Escriba el nombre del archivo como **PowerBIReport**."
+        },
+        {
+          "type": "replace",
+          "textOne": "4. Escriba **[Su apellido] Campus Management** para el **Nombre del tablero**, presione **Pin live**.",
+          "textTwo": "4. Escriba **Campus Management[DeploymentId]** para el **Nombre del tablero**, presione **Pin live**."
+        },
+        {
+          "type": "replace",
+          "textOne": "5. Selecciona **Mi espacio de trabajo** en la parte superior., selecciona **[Su apellido] Campus Management** tablero.",
+          "textTwo": "5. Selecciona **Mi espacio de trabajo** en la parte superior., selecciona **Campus Management** tablero."
+        },
+        {
+          "type": "replace",
+          "textOne": "4. Seleccione **Panel de control existente**, seleccione su **[Su apellido] Campus Management** tablero, presione **Pin**.",
+          "textTwo": "4. Seleccione **Panel de control existente**, seleccione su **Campus Management** tablero, presione **Pin**."
+        },
+        {
+          "type": "replace",
+          "textOne": "Su **[Su apellido] Campus Management** tablero se debe mostrar. Es posible que deba desplazarse hacia abajo para ver el nuevo elemento visual de preguntas y respuestas.",
+          "textTwo": "Su **Campus Management** tablero se debe mostrar. Es posible que deba desplazarse hacia abajo para ver el nuevo elemento visual de preguntas y respuestas. "
+        },
+        {
+          "type": "removeSection",
+          "textOne": "    título: 'Lab 8: Cómo construir un chatbot básico'",
+          "textTwo": "    módulo: 'Módulo 6: Introducción a Power Virtual Agents'"
+        },
+        {
+            "type": "removeLine",
+            "textOne": "---",
+            "textTwo": ""
+        },
+        {
+            "type": "removeLine",
+            "textOne": "lab:",
+            "textTwo": ""
+        },
+        {
+            "type": "removeLine",
+            "textOne": "módulo: 'Módulo 3: Comience con Power Apps'",
+            "textTwo": ""
+        },
+        {
+            "type": "removeLine",
+            "textOne": "    módulo: 'Módulo 2: Introducción a Common Data Service'",
+            "textTwo": ""
+        },
+        {
+            "type": "removeLine",
+            "textOne": "    módulo: 'Módulo 4: Comience con Power Automate'",
+            "textTwo": ""
+        },
+        {
+            "type": "removeLine",
+            "textOne": "    módulo: 'Módulo 5: Comience con Power BI'",
+            "textTwo": ""
+        },
+        {
+            "type": "removeLine",
+            "textOne": "    módulo: 'Módulo 6: Introducción a Power Virtual Agents'",
+            "textTwo": ""
+        },
+        {
+            "type": "removeLine",
+            "textOne": "    módulo: 'Módulo 0: Introducción al curso'",
+            "textTwo": ""
+        },
+    ]
+    }
+  ]
+}
